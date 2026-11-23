@@ -1,0 +1,151 @@
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #eef3f1;
+  color: #333;
+  line-height: 1.7;
+}
+
+/* CONTAINER PRINCIPAL */
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+/* CABEÇALHO */
+
+.cabecalho {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cabecalho h1 {
+  color: #246b55;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.cabecalho p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* CARDS */
+
+.card {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.card h2 {
+  color: #246b55;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.card p {
+  margin-bottom: 15px;
+}
+
+/* INTRODUÇÃO */
+
+.introducao {
+  text-align: center;
+}
+
+.introducao img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+/* LISTA DE DICAS */
+
+.dicas ul {
+  padding-left: 25px;
+}
+
+.dicas li {
+  margin-bottom: 12px;
+}
+
+/* POMODORO */
+
+.pomodoro {
+  text-align: center;
+}
+
+.iframe-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.iframe-container iframe {
+  border: none;
+  display: block;
+}
+
+.destaque {
+  color: #246b55;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+/* ATIVIDADES */
+
+.atividades {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.atividade {
+  background-color: #eef7f2;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  flex: 1 1 150px;
+}
+
+.atividade span {
+  font-size: 35px;
+}
+
+.atividade p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* FRASE FINAL */
+
+.frase-final {
+  text-align: center;
+  font-weight: 600;
+  color: #246b55;
+  margin-top: 25px;
+}
+
+/* RODAPÉ */
+
+.rodape {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
